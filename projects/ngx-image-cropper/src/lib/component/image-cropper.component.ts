@@ -79,6 +79,8 @@ export class ImageCropperComponent implements OnChanges, OnInit {
   @Input() backgroundColor = this.settings.backgroundColor;
   @Input() containWithinAspectRatio = this.settings.containWithinAspectRatio;
   @Input() hideResizeSquares = this.settings.hideResizeSquares;
+  @Input() noProcessing = this.settings.noProcessing;
+  @Input() crossOrigin = this.settings.crossOrigin;
   @Input() allowMoveImage = false;
   @Input() cropper: CropperPosition = {
     x1: -100,

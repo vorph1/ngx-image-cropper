@@ -29,6 +29,9 @@ export class CropperSettings {
   hideResizeSquares = false;
   alignImage: 'left' | 'center' = 'center';
 
+  noProcessing = false;
+  crossOrigin = 'anonymous';
+
   // Internal
   cropperScaledMinWidth = 20;
   cropperScaledMinHeight = 20;

@@ -15,6 +15,7 @@
     (mousedown)="startMove($event, moveTypes.Drag)"
     (touchstart)="startMove($event, moveTypes.Drag)"
     (error)="loadImageError($event)"
+    [attr.crossorigin]="crossOrigin"
   >
   <div
     class="ngx-ic-overlay"
